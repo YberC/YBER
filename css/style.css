@@ -1,0 +1,20 @@
+/*Estoy utilizando elementos html */
+h1 {
+    /*propiedades*/
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color:aqua; 
+}
+.selector-clase{
+    color:blue
+}
+/*selector de clase hace referencia a alguna fuente especial*/
+/*selector de clase atado a un elemento li., ., p.,....*/
+p.selector-clase {
+    color:violet
+}
+li.selector-clase {
+    color:yellowgreen
+}
