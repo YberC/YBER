@@ -1,18 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    background-color:rgb(133, 92, 4);
 }
-.cinzel-font {
-    font-family: 'Cinzel'; serif;
-    color:rgb(245, 238, 238);
-    font-size: 6em;
-}
+
 .box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.fuente-g{
+    text-align: center;
+    position: absolute;
+    font-family: 'Cinzel'; 
+    color:rgb(235, 21, 21);
+    font-size: 10em;
 }
 
 /* cinzel-700 - latin */

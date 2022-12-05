@@ -1,20 +1,29 @@
 * {
     margin: 0;
-    padding: 0;
-    background-color:black;
+    padding: 0; 
 }
+
 .box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 .fuente-n {
     color:red;
-    font-size: 10em;
-    font-family: 'Bebas Neue'
-     
+    text-align: center;
+    margin-top: 5em;
+    position: absolute;
+    font-size: 20em;
+    font-family: 'Bebas Neue' 
 }
+
+body{
+    background-image: url('../Netflix.jpg');
+    background-size: cover;
+}
+
 /* bebas-neue-regular - latin */
 @font-face {
     font-family: 'Bebas Neue';
